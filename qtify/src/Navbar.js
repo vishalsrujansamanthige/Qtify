@@ -14,7 +14,7 @@ export default function Navbar() {
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-       
+        
         textAlign: "center",
       }}
     >

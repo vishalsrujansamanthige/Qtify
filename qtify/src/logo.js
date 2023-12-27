@@ -1,4 +1,3 @@
-
 import logopng from "./assets/logo.svg";
 export default function Logo() {
   return (
@@ -7,8 +6,7 @@ export default function Logo() {
         src={logopng}
         alt="logo"
         style={{
-          
-          margin:'1rem'
+          margin: "20px 2rem",
         }}
       />
     </>
