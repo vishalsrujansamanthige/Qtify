@@ -5,10 +5,9 @@ export default function Logo() {
     <Avatar
       variant="square"
       sx={{
-        marginLeft: "2rem",
+        margin: "2rem",
         height: "36px",
         width: "67px",
-  
       }}
       src={logosvg}
     />
