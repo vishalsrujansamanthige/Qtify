@@ -7,7 +7,7 @@ import ButtonComp from "./ButtonComp";
 export default function Navbar() {
   return (
     <AppBar
-      position="static"
+      position="absolute"
       sx={{
         height: "74px",
         display: "flex",
@@ -17,11 +17,7 @@ export default function Navbar() {
       }}
     >
       <Logo
-        style={{
-          ml: "2rem",
-          height: "36px",
-          width: "67px",
-        }}
+        
       />
 
       <TextField
