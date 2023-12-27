@@ -7,8 +7,7 @@ export default function Logo() {
         src={logopng}
         alt="logo"
         style={{
-         
-         marginLeft:'1rem'
+          marginLeft: "14px",
         }}
       />
     </>

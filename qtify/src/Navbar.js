@@ -30,7 +30,7 @@ export default function Navbar() {
         placeholder="search a song of your choice"
         InputProps={{
           endAdornment: (
-            <InputAdornment>
+            <InputAdornment position="start">
               <SearchIcon />
             </InputAdornment>
           ),
