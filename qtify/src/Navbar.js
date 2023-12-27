@@ -9,11 +9,12 @@ export default function Navbar() {
     <AppBar
       position="absolute"
       sx={{
-        height: "74px",
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
+        alignContent: "",
+        height: "74px",
       }}
     >
       <Logo

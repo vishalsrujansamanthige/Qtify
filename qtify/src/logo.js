@@ -1,12 +1,16 @@
 import { Avatar } from "@mui/material";
-import logosvg from "./assets/logo.svg";
+import logopng from "./assets/Group 1.png";
 export default function Logo() {
   return (
     <>
-      <img src={logosvg} alt="logo" style={{
-         marginLeft:'2rem'
-        
-      }} />
+      <img
+        src={logopng}
+        alt="logo"
+        style={{
+         
+         marginLeft:'1rem'
+        }}
+      />
     </>
   );
 }
